@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Secondactivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:text="This app is Reference for Lottie animation in the android application. the dependency for the lottie"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:id="@+id/text"
+        android:textColor="@color/colorPrimary"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:text="implementation('com.airbnb.android:lottie:3.4.1 ')"
+        android:gravity="center"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"/>
+
+</RelativeLayout>
